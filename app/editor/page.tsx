@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
+import {Timeline} from "../../components/timeline";
 
 export const metadata: Metadata = {
     title: 'YewMovie - Editor',
 };
 
-function Page() {
+export default function Page() {
     return (
-        <div>
+        <>
             <h1>Welcome to the Editor!</h1>
-        </div>
+            <Timeline></Timeline>
+        </>
     );
 }
-
-export default Page;

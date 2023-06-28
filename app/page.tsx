@@ -1,8 +1,8 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/navigation';
 
-function Page() {
+export default function Page() {
     const router = useRouter()
 
     return (
@@ -12,5 +12,3 @@ function Page() {
         </div>
     );
 }
-
-export default Page;

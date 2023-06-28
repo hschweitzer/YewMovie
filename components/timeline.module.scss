@@ -1,0 +1,31 @@
+.timeline {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.media {
+  height: 50px;
+  border-radius: 5px;
+  width: 200px; // TODO
+  background-color: lightgray;
+  position: relative;
+
+  .edgeLeft, .edgeRight {
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    background-color: #222;
+    cursor:pointer;
+  }
+
+  .edgeLeft {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .edgeRight {
+    right: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
